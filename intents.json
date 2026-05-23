@@ -7,14 +7,18 @@
         "Hello",
         "Hey",
         "Good morning",
-        "Good evening"
+        "Good evening",
+        "What's up",
+        "Hi bot"
       ],
       "responses": [
         "Hello! How can I help you?",
         "Hi there!",
-        "Hey! What can I do for you?"
+        "Hey! What can I do for you?",
+        "Greetings! How may I assist you today?"
       ]
     },
+
     {
       "tag": "goodbye",
       "patterns": [
@@ -22,49 +26,190 @@
         "See you later",
         "Goodbye",
         "quit",
-        "exit"
+        "exit",
+        "bye bot"
       ],
       "responses": [
         "Goodbye!",
         "See you soon!",
-        "Have a great day!"
+        "Have a great day!",
+        "Take care and keep learning!"
       ]
     },
+
     {
       "tag": "name",
       "patterns": [
         "What is your name?",
         "Who are you?",
-        "Tell me your name"
+        "Tell me your name",
+        "Introduce yourself"
       ],
       "responses": [
         "I am an NLP chatbot created using Python.",
-        "You can call me AI Chatbot."
+        "You can call me AI Chatbot.",
+        "I am an intelligent chatbot built using Natural Language Processing."
       ]
     },
+
     {
       "tag": "help",
       "patterns": [
         "Can you help me?",
         "I need help",
-        "Help me"
+        "Help me",
+        "Can you assist me"
       ],
       "responses": [
         "Of course! Tell me your problem.",
-        "I am here to help you."
+        "I am here to help you.",
+        "Sure! What do you need assistance with?"
       ]
     },
+
     {
       "tag": "thanks",
       "patterns": [
         "Thank you",
         "Thanks",
-        "That's helpful"
+        "That's helpful",
+        "Thank you so much"
       ],
       "responses": [
         "You're welcome!",
         "Happy to help!",
-        "Anytime!"
+        "Anytime!",
+        "Glad I could help you!"
+      ]
+    },
+
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you",
+        "How are you doing",
+        "Are you fine",
+        "How's it going",
+        "What's up"
+      ],
+      "responses": [
+        "I am doing great!",
+        "I'm fine, thanks for asking!",
+        "Everything is running smoothly!",
+        "I'm working perfectly and ready to help you!"
+      ]
+    },
+
+    {
+      "tag": "ok",
+      "patterns": [
+        "ok",
+        "okay",
+        "nice",
+        "good",
+        "cool",
+        "great"
+      ],
+      "responses": [
+        "Great!",
+        "Awesome!",
+        "Glad to hear that!",
+        "Wonderful!"
+      ]
+    },
+
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you",
+        "Who made you",
+        "Who developed you",
+        "Who is your developer"
+      ],
+      "responses": [
+        "I was created by Tuhin Roy using Python and NLP techniques.",
+        "Tuhin Roy developed me as an NLP chatbot project.",
+        "I was built using Python, NLTK, and machine learning concepts."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Give me motivation",
+        "Motivate me",
+        "I feel tired",
+        "Encourage me",
+        "Say something inspiring"
+      ],
+      "responses": [
+        "Believe in yourself! Every day is a new opportunity to improve.",
+        "Success comes from consistency and hard work.",
+        "Keep learning and never give up!",
+        "You are capable of achieving great things!"
+      ]
+    },
+
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What NLP techniques do you use",
+        "How do you work",
+        "What algorithm do you use",
+        "Explain your working",
+        "What technology do you use"
+      ],
+      "responses": [
+        "I use TF-IDF vectorization and cosine similarity for intent matching.",
+        "I use Natural Language Processing techniques like tokenization and lemmatization.",
+        "I process text using NLP and machine learning concepts."
+      ]
+    },
+
+    {
+      "tag": "skills",
+      "patterns": [
+        "What can you do",
+        "Tell me your features",
+        "What are your capabilities",
+        "What services do you provide"
+      ],
+      "responses": [
+        "I can answer queries, respond to greetings, and demonstrate NLP capabilities.",
+        "I can process text and respond intelligently using NLP techniques.",
+        "I can assist users with conversations and predefined intents."
+      ]
+    },
+
+    {
+      "tag": "college",
+      "patterns": [
+        "I have exams",
+        "College is stressful",
+        "I am studying engineering",
+        "I have assignments",
+        "My studies are difficult"
+      ],
+      "responses": [
+        "Engineering requires consistency and dedication.",
+        "Stay focused and keep practicing daily.",
+        "Success in studies comes from patience and hard work.",
+        "You can overcome challenges with determination."
+      ]
+    },
+
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "Tell me the time",
+        "Current time",
+        "Can you show time"
+      ],
+      "responses": [
+        "I cannot access live time yet.",
+        "Time functionality can be added in future updates.",
+        "Currently, I do not support real-time clock features."
       ]
     }
   ]
