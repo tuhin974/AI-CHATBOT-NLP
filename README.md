@@ -229,6 +229,12 @@ Required libraries:
 
 ---
 
+# Internship Project
+
+This project was developed as part of an internship program at CodTech IT Solutions.
+
+---
+
 # Author
 
 Developed by Tuhin Roy using Python and NLP.
