@@ -229,6 +229,10 @@ Required libraries:
 
 ---
 
+## OUTPUT
+
+<img width="1182" height="492" alt="Image" src="https://github.com/user-attachments/assets/b2db2507-3177-4f66-8385-15467f5c1a9d" />
+
 # Internship Project
 
 This project was developed as part of an internship program at CodTech IT Solutions.
