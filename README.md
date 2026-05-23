@@ -1,13 +1,10 @@
 # AI Chatbot using NLP
 
-## Overview
-
-This project is a simple AI chatbot built using Python and NLP techniques.
-The chatbot can understand user queries and respond intelligently using TF-IDF and cosine similarity.
+A Python-based AI chatbot built using Natural Language Processing (NLP) techniques such as tokenization, lemmatization, TF-IDF vectorization, and cosine similarity.
 
 ---
 
-## Features
+# Features
 
 - NLP-based chatbot
 - Tokenization
@@ -17,41 +14,54 @@ The chatbot can understand user queries and respond intelligently using TF-IDF a
 - Cosine similarity matching
 - Conversation logging
 - Beginner-friendly code
+- JSON-based intent dataset
+- Command-line chatbot interface
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Python
 - NLTK
 - Scikit-learn
+- TF-IDF
+- Cosine Similarity
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
-AI_Chatbot/
+AI-CHATBOT-NLP/
 │
 ├── chatbot.py
 ├── intents.json
 ├── requirements.txt
-└── README.md
+├── README.md
+└── chat_log.txt
 ```
 
 ---
 
-## Installation
+# Installation and Setup
 
-### Step 1: Clone or Download the Project
+## Step 1: Clone the Repository
 
-Download the project files.
+```bash
+git clone https://github.com/tuhin974/AI-CHATBOT-NLP.git
+```
 
 ---
 
-### Step 2: Install Dependencies
+## Step 2: Open Project Folder
 
-Open terminal and run:
+```bash
+cd AI-CHATBOT-NLP
+```
+
+---
+
+## Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -59,7 +69,7 @@ pip install -r requirements.txt
 
 ---
 
-### Step 3: Run the Chatbot
+## Step 4: Run the Chatbot
 
 ```bash
 python chatbot.py
@@ -67,18 +77,22 @@ python chatbot.py
 
 ---
 
-## Example Conversation
+# Example Conversation
 
 ```text
 AI Chatbot is running!
+Type 'exit', 'quit', or 'bye' to stop.
 
-You: Hi
-Bot: Hello! How can I help you?
+You: hello
+Bot: Hi there!
 
-You: What is your name?
+You: how are you
+Bot: I am doing great!
+
+You: what is your name
 Bot: I am an NLP chatbot created using Python.
 
-You: Thanks
+You: thanks
 Bot: You're welcome!
 
 You: bye
@@ -87,9 +101,9 @@ Bot: Goodbye!
 
 ---
 
-## NLP Pipeline Explanation
+# NLP Pipeline Explanation
 
-### 1. Text Preprocessing
+## 1. Text Preprocessing
 
 The chatbot preprocesses user input using:
 
@@ -106,45 +120,109 @@ Example:
 
 ---
 
-### 2. TF-IDF Vectorization
+## 2. TF-IDF Vectorization
 
-TF-IDF converts text into numerical vectors.
+TF-IDF (Term Frequency-Inverse Document Frequency) converts text into numerical vectors.
 
-It helps the chatbot understand important words in sentences.
+This helps the chatbot understand the importance of words in a sentence.
 
 ---
 
-### 3. Cosine Similarity
+## 3. Cosine Similarity
 
 Cosine similarity measures similarity between:
 
 - User input
 - Stored intent patterns
 
-The chatbot selects the most similar response.
+The chatbot selects the most similar intent and returns a relevant response.
 
 ---
 
-## Logging
+# Logging System
 
-All conversations are saved in:
+All chatbot conversations are automatically stored in:
 
 ```text
 chat_log.txt
 ```
 
+This helps track interactions and debug chatbot behavior.
+
 ---
 
-## Future Improvements
+# Intents Dataset
+
+The chatbot uses a JSON-based intents dataset:
+
+```text
+intents.json
+```
+
+Each intent contains:
+
+- Tag
+- Patterns
+- Responses
+
+Example:
+
+```json
+{
+  "tag": "greeting",
+  "patterns": ["Hi", "Hello"],
+  "responses": ["Hello!", "Hi there!"]
+}
+```
+
+---
+
+# Future Improvements
 
 - GUI using Tkinter
-- Voice assistant support
-- Deep learning model
+- Voice assistant integration
+- Flask web deployment
+- Deep learning-based chatbot
 - Database integration
-- Web deployment using Flask
+- spaCy NLP support
+- Speech recognition
+- AI API integration
 
 ---
 
-## Author
+# Screenshots
 
-Created using Python and NLP.
+(Add your chatbot screenshot here)
+
+Example:
+
+```markdown
+![Chatbot Screenshot](screenshot.png)
+```
+
+---
+
+# Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Required libraries:
+
+- nltk
+- scikit-learn
+
+---
+
+# Author
+
+Developed by Tuhin Roy using Python and NLP.
+
+---
+
+# License
+
+This project is licensed under the MIT License.
