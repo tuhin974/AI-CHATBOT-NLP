@@ -4,6 +4,18 @@ A Python-based AI chatbot built using Natural Language Processing (NLP) techniqu
 
 ---
 
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: TUHIN ROY
+
+*INTERN ID*: CTIS05SQ
+
+*DOMAIN*: PYTHON
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
+
 # Features
 
 - NLP-based chatbot
